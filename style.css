@@ -12,6 +12,13 @@
 .image-caption div{
   float: right;
   border: none;
+  color: black;
+}
+.image-caption span{
+  color: #D8D8D8;
+}
+.image-caption a{
+  color: #3D2829;
 }
 .authors img {
   width: 25px;
@@ -33,7 +40,7 @@
   display: inline;
   max-width: 380px;
   max-height: 410px;
-  border-bottom: 1.5px solid #D8D8D8;
+  /*border-bottom: 1.5px solid #D8D8D8;*/
 }
 li {
   display: inline-block;
@@ -41,6 +48,7 @@ li {
   max-width: 385px;
   border-bottom: 1.5px solid #D8D8D8;
   text-decoration-color: #D8D8D8;
+  height: 420px;
 }
 ul {
   display: inline;
@@ -53,9 +61,11 @@ div{
   display: inline;
 }
 a:-webkit-any-link {
-    color: -webkit-link;
     text-decoration: none;
     cursor: auto;
     -webkit-padding-start: 1px
     border-bottom: none;
+  }
+span {
+    color: #D8D8D8;
   }
