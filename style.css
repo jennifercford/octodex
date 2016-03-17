@@ -1,0 +1,61 @@
+
+.octocat img{
+  width: 380px;
+  border: 1.5px solid #D8D8D8;
+}
+.image-footer div{
+  display: inline;
+  float: right;
+  height: 40px;
+  border: none;
+}
+.image-caption div{
+  float: right;
+  border: none;
+}
+.authors img {
+  width: 25px;
+  border: none;
+  margin: none;
+  float: none;
+  text-decoration: none;
+}
+.authors li {
+  display: inline;
+  border: none;
+  text-decoration: none;
+}
+.authors {
+  float: right;
+  -webkit-padding-start: 0px
+}
+.octocat li {
+  display: inline;
+  max-width: 380px;
+  max-height: 410px;
+  border-bottom: 1.5px solid #D8D8D8;
+}
+li {
+  display: inline-block;
+  margin: 5px;
+  max-width: 385px;
+  border-bottom: 1.5px solid #D8D8D8;
+  text-decoration-color: #D8D8D8;
+}
+ul {
+  display: inline;
+  max-height: 420px;
+}
+body {
+  margin-top: 10px;
+}
+div{
+  display: inline;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: none;
+    cursor: auto;
+    -webkit-padding-start: 1px
+    border-bottom: none;
+  }
