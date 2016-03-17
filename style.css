@@ -15,7 +15,7 @@
   color: black;
 }
 .image-caption span{
-  color: #D8D8D8;
+  color: #7D7B7A;
 }
 .image-caption a{
   color: #3D2829;
@@ -65,7 +65,9 @@ a:-webkit-any-link {
     cursor: auto;
     -webkit-padding-start: 1px
     border-bottom: none;
+    font-weight: bold;
   }
 span {
     color: #D8D8D8;
+    font-weight: bold;
   }
